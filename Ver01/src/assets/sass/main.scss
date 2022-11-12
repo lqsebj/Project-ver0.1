@@ -1,0 +1,22 @@
+// Variables
+@import './variables/color';
+@import './variables/media';
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import './variables/fonts';
+
+// Global Style
+@import './global/resets.scss';
+@import './global/global.scss';
+// Global Style End
+
+// Common section
+@import './common/header.scss';
+@import './common/footer.scss';
+// Common section End
+
+// Pages Style
+@import './pages/home.scss';
+@import './pages/contact.scss';
+@import './pages/about.scss';
+// Pages Style End

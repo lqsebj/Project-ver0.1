@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/bundle.min.css">
+</head>
+
+<body>
+   
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <img class="logo" src="../img/Logo.svg" alt="logo">
+                <nav class="header__nav">
+                   <label class="header__nav-label" for="gam">
+                    <div class="header__nav-icon"></div>
+                   </label>
+                   <input id="gam" class="header__nav-input" type="checkbox">
+                   <ul class="header__nav-row">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="/">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./works.html">Works</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--active">
+                            <a class="header__nav-link" href="./contact.html">Contact</a>
+                        </li>
+                   </ul>
+                </nav>
+            </div>
+        </header>
+
+       <main class="contact">
+          <section>
+            <div class="container contact__container">
+            <div class="contact__block-l">
+                <div class="contact__title">
+                <h1>Contact us</h1>
+                </div>
+                <div class="contact__info">
+                    <h3 class="contact__info-h3">
+                        Contact information
+                    </h3>
+                    <h4 class="contact__info-h4">
+                        486 Rahi street, Berlin .98
+                        Germany
+                    </h4>
+                        <h4> <i class="fa fa-phone" aria-hidden="true"></i><a class="contact__info-a" href=":tel">+48 601 366 816</a> 
+                        </h4>
+                        <h4>
+                        <i class="fa fa-envelope" aria-hidden="true"></i><a class="contact__info-a" href="mailto:">company@support.com</a>
+                    </h4>
+                </div>
+                <div class="contact__social">
+                    <h3>
+                        Follow Us
+                    </h3>
+                    <div class="contact__icons">
+                    <a href=""><i class="fa fa-facebook contact__social-icons"></i></a>
+                    <a href=""><i class="fa fa-twitter contact__social-icons"></i></a>
+                    <a href=""><i class="fa fa-linkedin contact__social-icons"></i></a>
+                    <a href=""><i class="fa fa-dribbble contact__social-icons"></i></a>
+                </div>
+                </div>
+            </div>
+            <div class="contact__block-r">
+                <div class="contact__text">
+                    <h4>
+                        If you need our help with your user account, have 
+                    </h4>
+                    <h4>
+                        questions about how to use the platform or are 
+                    </h4>
+                    <h4>
+                        experiencing technical difficulties, please do not hesitate
+                    </h4>
+                    <h4>    
+                         to contact us.
+                    </h4>
+                </div>
+                <div class="contact__form">
+                    <form action="#" method="get" id="contactform">
+                    <h5 class="contact__txt-h5">Name*</h5>
+                    <input class="contact__input" type="text" placeholder="Walter Moss">
+                    <h5 class="contact__txt-h5">Email*</h5>
+                    <input class="contact__input" type="email" placeholder="Info@manifest.com">
+                    <h6 class="contact__txt-h6">Reason for contact</h6>
+                    <input class="contact__input" type="select">
+                    <h5 class="contact__txt-h5">Message*</h5>
+                    <input class="contact__input" type="text" placeholder="Hi there ...">
+                </form>
+                <div class="contact__btn-box">
+                    <button class="contact__btn btn" type="submit" form="contactform" value="submit"ç>
+                        <h7>
+                            Send 
+                        </h7> 
+                        <a class="contact__arrow fa fa-arrow-right fa-2x" href="#"></a>
+                    </button>
+                </div>
+                </div>
+            </div>
+            </div>            
+          </section>
+       </main>
+
+       <footer class="footer">
+        <div class="container footer__container">
+            <div>
+            <h2 class="footer__title">
+                Need a project?
+            </h2>
+            <h6 class="footer__info">
+               (239) 555-0108
+            </h6>
+            <h6 class="footer__info">
+                tanya.hill@example.com
+            </h6>
+        </div>
+        <div footer__links>
+            <ul>
+                <li class="footer__social"> <a class="footer__social-links" href="">Facebook</a></li>
+                <li class="footer__social"> <a class="footer__social-links" href="">Instagram</a></li>
+                <li class="footer__social"> <a class="footer__social-links" href="">Dribbble</a></li>
+                <li class="footer__social"> <a class="footer__social-links" href="">Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="footer__copy-box">
+            <p class="footer__copy">
+                © Copyright Manifest Theme. Allrights reserved
+            </p>
+        </div>
+        </div>
+    </footer>
+    </div>
+    
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>

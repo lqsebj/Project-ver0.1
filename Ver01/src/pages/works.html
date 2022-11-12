@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/bundle.min.css">
+</head>
+
+<body>
+   
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <img class="logo" src="../img/Logo.svg" alt="logo">
+                <nav class="header__nav">
+                   <label class="header__nav-label" for="gam">
+                    <div class="header__nav-icon"></div>
+                   </label>
+                   <input id="gam" class="header__nav-input" type="checkbox">
+                   <ul class="header__nav-row">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="/">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="header__nav-item header__nav-item--active">
+                            <a class="header__nav-link" href="./works.html">Works</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="./contact.html">Contact</a>
+                        </li>
+                   </ul>
+                </nav>
+            </div>
+        </header>
+
+       <main class="works-page">
+          <section>
+            <div class="works__container">
+                <div class="works__content">
+                    <h1 class="works__title h1">
+                        Works
+                    </h1>
+                <h4>
+                    Hello! I’m Manifest – a Freelance UI/UX Designer from Berlin, Germany.
+                </h4>
+                </div>
+                <div class="works__content">
+                   <div class="works__inner">
+                    <h3 class="works__iner-txt h3">
+                        Car Sharing App
+                    </h3>
+                    <h6>
+                        Product Design
+                    </h6>
+                    <h6>
+                        2020
+                    </h6>
+
+                    <button>
+                        View More
+                    </button>
+                </div>
+                    <div class="works__img">
+                        <img src="../assets/img/works/Img01.jpeg" alt="image">
+                    </div>
+                </div>
+                <div class="works__content">
+                   <div class="works__inner">
+                    <h3 class="works__iner-txt h3">
+                        AI Fashion Platform
+                    </h3>
+                    <h6>
+                        User Centered Website Redesign
+                    </h6>
+                    <h6>
+                        2019
+                    </h6>
+
+                    <button>
+                        View More
+                    </button>
+                </div>
+                    <div class="works__img">
+                        <img src="../assets/img/works/Img02.jpeg" alt="image">
+                    </div>
+                </div>
+                <div class="works__content">
+                   <div class="works__inner">
+                    <h3>
+                        Redesigning DropBox
+                    </h3 class="works__iner-txt h3">
+                    <h6>
+                        Product Design
+                    </h6>
+                    <h6>
+                        2018
+                    </h6>
+
+                    <button>
+                        View More
+                    </button>
+                </div>
+                    <div class="works__img">
+                        <img src="../assets/img/works/Img03.jpeg" alt="image">
+                    </div>
+                </div>
+
+                </div>
+            </div>
+          </section>
+       </main>
+
+       <footer class="footer">
+        <div class="container footer__container">
+            <div>
+            <h2 class="footer__title">
+                Need a project?
+            </h2>
+            <h6 class="footer__info">
+                (239) 555-0108
+            </h6>
+            <h6 class="footer__info">
+                tanya.hill@example.com
+            </h6>
+        </div>
+        <div footer__links>
+            <ul>
+                <li class="footer__social"> <a class="footer__social-links" href="">Facebook</a></li>
+                <li class="footer__social"> <a class="footer__social-links" href="">Instagram</a></li>
+                <li class="footer__social"> <a class="footer__social-links" href="">Dribbble</a></li>
+                <li class="footer__social"> <a class="footer__social-links" href="">Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="footer__copy-box">
+            <p class="footer__copy">
+                © Copyright Manifest Theme. Allrights reserved
+            </p>
+        </div>
+        </div>
+    </footer>
+
+    </div>
+    
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>
